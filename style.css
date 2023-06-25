@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'inter-regular';
+    src: local("inter-regular"),
+    url("./assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'inter-extra-light';
+    src: local("inter-extra-light"),
+    url("./assets/fonts/Inter-ExtraLight.ttf") format("truetype");
+}
+
+body {
+    font-family: 'inter-regular';
+    background-color: #EBECFF;
+    margin: 0;
+}
+
+#main-title {
+    font-family: 'inter-extra-light';
+    font-size: 80px;
+    text-align: center;
+}
+
+#amogus-container-top, #amogus-container-bottom {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+#amogus-container-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.amogus-pic {
+    max-width: 80px;
+   
+}
