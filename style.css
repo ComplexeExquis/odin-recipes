@@ -19,6 +19,7 @@ body {
     font-family: 'inter-extra-light';
     font-size: 80px;
     text-align: center;
+    margin: 24px;
 }
 
 #amogus-container-top, #amogus-container-bottom {
@@ -29,11 +30,52 @@ body {
 }
 
 #amogus-container-bottom {
-    position: absolute;
     bottom: 0;
 }
 
 .amogus-pic {
     max-width: 80px;
-   
+}
+
+#recipes-choices-grid-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 48px;
+}
+
+#recipes-choices-grid {
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    row-gap: 30px;
+    column-gap: 15px;
+    
+}   
+
+.individual-recipe {
+    width: 200px;
+    height: 200px;
+    background-color: #C2C5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse {
+    background-color: #FFD0B5;
+    height: 144px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-image {
+    max-width: 160px;
+    max-height: 160px;
 }
