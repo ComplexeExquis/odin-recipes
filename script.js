@@ -4,27 +4,20 @@ let frenchToastRecipe = document.getElementById("french-toast-recipe");
 let pbjRecipe = document.getElementById("pbj-recipe");
 
 
-function mouseOver() {
-    document.querySelectorAll(".individual-recipe").forEach(function (recipe) {
-        recipe.style.cursor = "pointer";
-    });
-}
-
 
 croissantRecipe.addEventListener("click", function() {
     window.location.href = "./recipes/croissant.html";
-    croissantRecipe.style.cursor = "";
 });
 
 pancakeRecipe.addEventListener("click", function() {
-    window.location.href = ""; // pancake.html
+    window.location.href = "./recipes/pancake.html"; // pancake.html
 });
 
 frenchToastRecipe.addEventListener("click", function() {
-    window.location.href = ""; // frenchToastRecipe.html
+    window.location.href = "./recipes/frenchToast.html"; // frenchToastRecipe.html
 });
 
 pbjRecipe.addEventListener("click", function() {
-    window.location.href = ""; // pbj.html
+    window.location.href = "./recipes/pbj.html"; // pbj.html
 });
 

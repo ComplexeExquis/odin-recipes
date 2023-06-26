@@ -42,7 +42,7 @@ body {
     justify-content: center;
     width: auto;
     height: auto;
-    margin-bottom: 48px;
+    margin-bottom: 80px;
 }
 
 #recipes-choices-grid {
@@ -64,6 +64,10 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.individual-recipe:hover {
+    background-color: #9194BF;
+    cursor: pointer;
 }
 
 .ellipse {

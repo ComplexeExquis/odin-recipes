@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'inter-regular';
+    src: local("inter-regular"),
+    url("../assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'inter-extra-light';
+    src: local("inter-extra-light"),
+    url("../assets/fonts/Inter-ExtraLight.ttf") format("truetype");
+}
+
+body {
+    font-family: 'inter-regular';
+    background-color: #EBECFF;
+    margin: 0;
+}
+
+#back-btn {
+    font-family: 'inter-regular';
+    display: flex;
+    border: none;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #C2C5FF;
+    font-size: 1.7rem;
+    padding: 8px;
+    justify-content: center;
+    border-radius: 8%;
+}
+
+#back-btn:hover {
+    background-color: #9194BF;
+    cursor: pointer;
+}
+
+#back-btn-icon {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+#content-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ellipse {
+    background-color: #FFD0B5;
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-image {
+    width: 160px;
+    height: 144px;
+}
+
+#recipe-tutorial-container {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    background-color: #C2C5FF;
+    width: 56vw;
+    height: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 40px;
+    border-radius: 2%;
+}
+
+#recipe-title {
+    text-align: center;
+}
+
+ul, ol {
+    padding-left: 24px;
+    margin: 0;
+}
