@@ -34,7 +34,7 @@ body {
 }
 
 .amogus-pic {
-    max-width: 80px;
+    max-width: 120px;
 }
 
 #recipes-choices-grid-container {
@@ -63,6 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .ellipse {
@@ -78,4 +79,11 @@ body {
 .recipe-image {
     max-width: 160px;
     max-height: 160px;
+}
+
+.recipe-name {
+    font-family: 'inter-regular';
+    font-weight: lighter;
+    margin-top: 8px;
+    margin-bottom: 0;
 }
