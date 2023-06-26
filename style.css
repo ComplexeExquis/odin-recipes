@@ -91,3 +91,14 @@ body {
     margin-top: 8px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 767px) {
+    #main-title {
+        font-size: 40px;
+    }
+
+    .amogus-pic {
+        max-width: 64px;
+    }
+
+}
